@@ -35,7 +35,7 @@
 
 # Reasonings
 
--   I picked a backend technology instead of a straight up frontend framework (React) because I prefer to process/manipulate the data on the backend, letting the controllers do what they're supposed to..
+-   I picked a backend technology instead of a straight up frontend framework (React) because I prefer to process/manipulate the data on the backend, letting the controllers do what they're supposed to. I guess it's not showcasing asynchronous as much as it would have if I used React.
 -   I could've picked React as the frontend for this but that would've defeated the purpose of me using Laravel.
 -   I have a separate controller for each "Model": Health, Operation, Reader, even though there's no model defined. And the reason is that I thought about having CRUD operations on each model. For instance, you may want to add another Operation option in the future, or update / delete the Health issues.
 -   ReaderController is joining the models together and send the data to the frontend.
