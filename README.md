@@ -5,6 +5,7 @@
 # Setting up
 
 -   `composer install` (require composer)
+-   Rename `.env.example` to `.env`
 
 # To Run
 
